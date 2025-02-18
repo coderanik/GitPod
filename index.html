@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git Command Practice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Git Command Practice</h1>
+    <p>Practice common Git commands in this simulated environment. Try these commands:</p>
+    <ul>
+        <li>git init</li>
+        <li>git add [filename]</li>
+        <li>git commit -m "message"</li>
+        <li>git status</li>
+        <li>git log</li>
+    </ul>
+
+    <div class="terminal">
+        <label id="prompt">$ </label>
+        <input type="text" class="command-input" id="commandInput" autofocus>
+        <div id="output" class="output"></div>
+    </div>
+
+    <div class="command-history">
+        <h3>Command History</h3>
+        <div id="history"></div>
+    </div>
+    <script src="./code.js"></script>
+</body>
+</html>
