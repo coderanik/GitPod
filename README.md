@@ -49,6 +49,6 @@ This project is a simulated environment to practice common Git commands. It prov
   ```sh
   git status
 
--View the commit history:
+- View the commit history:
   ```sh
   git log
