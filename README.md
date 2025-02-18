@@ -37,14 +37,18 @@ This project is a simulated environment to practice common Git commands. It prov
   ```sh
   git init
 
+- Add a file to the staging area:
   ```sh
   git add filename
 
+- Commit changes with a message:
   ```sh
   git commit -m "Initial commit"
 
+- Check the status of the repository:
   ```sh
   git status
 
+-View the commit history:
   ```sh
   git log
